@@ -1,0 +1,29 @@
+print("Welcome to Treasure Island!!")
+print("Your mission is to find the treasure.")
+print("You are at cross road.")
+print("\n")
+print("Where do you want to go?(Left?Right)")
+answer = input("Your answer: ")
+if(answer == 'right'):
+print("Game over!")
+elif(answer=='left'):
+print("You came at lake side. How do you want to go? By swim or wait?")
+choice = input("Your choice: ")
+if(choice == 'wait'):
+print("You choose to wait. Please wait for the boat to come.")
+print("The bost came. You can go now.")
+print("There are three house of three different colours: red, yellow and blue. Give your choice of house.");
+house = input("Which house: ");
+if (house == 'red'):
+print("You choose the house of full of fire!!");
+print("Game over");
+elif(house == 'yellow'):
+print("You found the tresure. You win!! Congratulation!!");
+elif(house == 'blue'):
+print("You came in the house of full of beasts. You lost game over.");
+else:
+print("This door doesn't even exist.");
+else:
+print("Game over!")
+else:
+print("There is no way like this.");
