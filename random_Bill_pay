@@ -1,0 +1,10 @@
+import random
+names = input("Who are going? ")
+names = names.split(",")
+print(names)
+
+ran_name = random.randint(0, len(names)-1)
+
+bill_by = names[ran_name]
+
+print(f"{bill_by} will pay")
